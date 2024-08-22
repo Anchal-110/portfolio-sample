@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 50px; /* Adjust the top padding for the desired gap */
+    text-align: center; /* Centers the content inside the header */
+}
+
+/* Profile photo container styling */
+.photo-container {
+    display: inline-block; /* Ensures the photo is centered */
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid burl /* Thick border */
+}
+.intro-text {
+    text-align: center; /* Centers the text */
+    font-size: 1.2em; /* Adjusts the font size */
+    color: #555; /* Sets a neutral text color */
+    margin-top: 20px; /* Adds space between the photo and the text */
+    background-color:#9A7B4F;
+    font-weight: 600; /* Makes the text slightly bolder */
+
+}
+
+p{
+    color:brown;
+}
+section{
+    background-color:burlywood; 
+}
+
+.social-icons {
+    margin-top: 20px; /* Space above the icons */
+    text-align: center; /* Center the icons */
+}
+
+/* Social media icons styling */
+.social-icons a {
+    margin: 0 15px; /* Space between icons */
+    display: inline-block; /* Keeps icons in a row */
+}
+
+.social-icons img {
+    width: 40px; /* Adjust the size of the icons */
+    height: 40px;
+}
+.photo-box img {
+    border: 0px solid #795C34;
+    width: 500px; height:600px;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    /* Container को viewport height तक फैलाने के लिए */
+}
+a{
+    text-decoration:none;
+    color:brown;
+    font-size: 30px;
+    text-align: center;
+}
+.icon-text{
+    border-radius: 5px;
+    
+}
+.col{
+    color:black;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+.project-1{
+    width:50%;
+    height:30%;
+    margin-left: 300px;
+    margin-top:70px;
+    float:center;
+}
+hr{
+    color:#9A7B4F;
+}
+.footer{
+    margin-top:20px;
+}
+.icons{
+    width:20%;
+    height:10%;
+    display:inline;
+}
+.footer{
+    color:grey;
+}
